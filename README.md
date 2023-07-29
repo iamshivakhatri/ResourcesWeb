@@ -5,3 +5,6 @@ These are resources for web development
 ✅ Haikei: https://app.haikei.app
 ✅ Omatsuri: https://omatsuri.app/
 ✅ Gradient Style: https://gradient.style/
+
+locofy
+figma
