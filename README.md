@@ -8,3 +8,4 @@ These are resources for web development
 
 locofy
 figma
+wordpress
