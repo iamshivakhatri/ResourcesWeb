@@ -6,6 +6,9 @@ These are resources for web development
 ✅ Omatsuri: https://omatsuri.app/
 ✅ Gradient Style: https://gradient.style/
 
+
+https://cssgradient.io/
+
 locofy
 figma
 wordpress
