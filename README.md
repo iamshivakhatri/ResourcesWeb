@@ -7,8 +7,15 @@ These are resources for web development
 ✅ Gradient Style: https://gradient.style/
 
 
+
 https://cssgradient.io/
 
 locofy
 figma
-wordpress
+Wordpress
+
+Use material UI
+
+1. install
+2. npm install @mui/material @mui/styled-engine-sc styled-components
+3. for fonts yarn add @mui/icons-material
