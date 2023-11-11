@@ -51,12 +51,7 @@ const deletePost = (event) => {
         event.preventDefault();
 
         const options = {
-            method: 'DELETE',
-            header:{
-                'content-type': 'application/json'
-
-            },
-            body: JSON.stringify.json(post)
+            method: 'DELETE'
         }
 
         fetch(`/api/trips/${id}`, options)
