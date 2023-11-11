@@ -9,3 +9,58 @@ const handleChange = (event) => {
             }
         })
     }
+// CRUD in frontend
+
+// create
+const createPost = (event) => {
+        event.preventDefault();
+
+        const options = {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(post),
+        };
+
+        fetch('/api/trips', options)
+        window.location.href = "/";
+  }
+
+// edit
+const updatePost = (event) => {
+        event.preventDefault();
+        const options = {
+            method: 'PUT',
+            header:{ 
+                'content-type': 'application/json'
+            },
+            body : JSON.stringify(post)
+        }
+
+        fetch(`/api/trips/${id}`, options)
+
+        window.location.href = "/";
+
+
+
+    }
+
+// delete
+const deletePost = (event) => {
+        event.preventDefault();
+
+        const options = {
+            method: 'DELETE',
+            header:{
+                'content-type': 'application/json'
+
+            },
+            body: JSON.stringify.json(post)
+        }
+
+        fetch(`/api/trips/${id}`, options)
+
+        window.location.href = "/";
+
+    }
